@@ -1,0 +1,40 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    background: url('heart2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  
+  .container {
+    background: plum;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  input {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: darkred;
+  }
+  
